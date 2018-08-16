@@ -1,0 +1,6 @@
+sitesym_database.o: sitesym_database.c /usr/include/stdc-predef.h \
+ sitesym_database.h
+
+/usr/include/stdc-predef.h:
+
+sitesym_database.h:

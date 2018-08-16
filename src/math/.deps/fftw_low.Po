@@ -1,0 +1,8 @@
+fftw_low.o: fftw_low.c /usr/include/stdc-predef.h ../../config.h \
+ ../../src/include/fortran_types.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:
+
+../../src/include/fortran_types.h:

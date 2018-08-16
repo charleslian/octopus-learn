@@ -1,0 +1,5 @@
+oct_gdlib_f.o: oct_gdlib_f.c /usr/include/stdc-predef.h ../../config.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:

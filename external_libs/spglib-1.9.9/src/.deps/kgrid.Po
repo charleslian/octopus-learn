@@ -1,0 +1,5 @@
+kgrid.o: kgrid.c /usr/include/stdc-predef.h kgrid.h
+
+/usr/include/stdc-predef.h:
+
+kgrid.h:

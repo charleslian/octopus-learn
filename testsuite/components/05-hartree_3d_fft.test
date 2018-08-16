@@ -1,0 +1,13 @@
+# -*- coding: utf-8 mode: shell-script -*-
+
+Test       : Hartree FFT
+Program    : oct-test
+TestGroups : short-run, components
+Enabled    : Yes
+
+Precision : 0.005
+Input: 05-hartree_3d_fft.01-fft.inp
+match ; FFT           ; GREPFIELD(hartree_results, 'Hartree test (abs.) =', 5) ; 0.00035839
+
+Input: 05-hartree_3d_fft.02-fft_corrected.inp
+match ; FFT Corrected ; GREPFIELD(hartree_results, 'Hartree test (abs.) =', 5) ; 0.00154839

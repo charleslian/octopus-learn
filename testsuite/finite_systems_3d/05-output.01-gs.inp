@@ -1,0 +1,24 @@
+# -*- coding: utf-8 mode: shell-script -*-
+
+CalculationMode = gs
+fromScratch = yes
+
+UnitsOutput = ev_angstrom
+
+Radius = 5.0
+Spacing = 0.5
+
+%Coordinates
+  "H" | 0 | 0 | 0
+%
+
+Output = density + geometry + wfs + bader + potential + forces + el_pressure + ELF
+OutputFormat = axis_x + plane_x + dx + xyz + xcrysden + mesh_index
+OutputInterval = 4
+OutputDuringSCF = yes
+# for Bader parallel in domains
+ExperimentalFeatures = yes
+
+FilterPotentials = filter_none
+
+MixField = density

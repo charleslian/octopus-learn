@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+
+UnitsOutput = ev_angstrom
+ExperimentalFeatures = yes
+
+CalculationMode = gs
+FromScratch = yes
+
+BoxShape = sphere
+Radius = 4*angstrom
+Spacing = 0.25*angstrom
+
+%Coordinates
+ "C"  |  0.000*angstrom |  0.000*angstrom |  0.000*angstrom
+ "H"  | -1.213*angstrom | -0.852*angstrom |  0.000*angstrom
+ "H"  |  0.000*angstrom |  0.852*angstrom | -1.213*angstrom
+ "H"  |  0.000*angstrom |  0.852*angstrom |  1.213*angstrom
+ "H"  |  1.213*angstrom | -0.852*angstrom |  0.000*angstrom
+%
+
+EigenSolver = evolution
+EigenSolverTolerance = 1e-5
+
+ConvRelDens = 0.08
+
+TDExponentialMethod = lanczos
+TDExpOrder = 100
+
+SCFCalculatePartialCharges = yes
+
+ExperimentalFeatures = yes
+

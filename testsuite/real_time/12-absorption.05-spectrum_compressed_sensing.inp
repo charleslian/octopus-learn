@@ -1,0 +1,4 @@
+UnitsOutput = ev_angstrom
+PropagationSpectrumMaxEnergy = 40.0*eV
+SpectrumMethod = compressed_sensing
+ExperimentalFeatures = yes
